@@ -27,7 +27,7 @@
 
 * 请求头 `Authorization: Bearer sk-xxxx`
 
-* 请求体 是form-data，两个字段 model: whisper-1，file: 你的音频文件
+* 请求体 `form-data`，两个字段 `model: whisper-1`，`file: 你的音频文件路径`
 
 
 ## 1.3 TTS
