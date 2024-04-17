@@ -69,9 +69,9 @@
 
 ### 1.5.1. 上传文件
 * POST https://burn.hair/v1/files
-* form data
-* purpose: batch
-* file: 你的文件，格式为 jsonl，如下
+* form data，两个字段
+* `purpose: batch`
+* `file: 你的文件路径`，格式为 jsonl，如下
 
 ```jsonl
 {"custom_id":"123a","method":"POST","body":{"model":"gpt-3.5-turbo","messages":[{"role":"user","content":"重复我说的话：我，V，谨庄严宣誓。"}]},"url":"/v1/chat/completions"}
