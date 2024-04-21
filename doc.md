@@ -186,6 +186,19 @@
 {"id":"batch_SVrZ7umUwFGq06i-wFXym07Ad4U","custom_id":"124a","response":{"status_code":200,"request_id":"req_1b795c4ffcf311eea2910242ac120009","body":{"choices":[{"finish_reason":"stop","index":0,"logprobs":null,"message":{"content":"我是一个开发的语言模型，我没有实体身份。我工作的目标是回答用户的问题和提供相关的信息。有什么我可以帮助你的吗？","role":"assistant"}}],"created":1713383155,"id":"chatcmpl-9F5W728FkYlTqgO9JLLsWmXhudP9Q","model":"gpt-35-turbo","object":"chat.completion","system_fingerprint":null,"usage":{"completion_tokens":53,"prompt_tokens":12,"total_tokens":65}}},"error":null}
 
 ```
+## 1.6 embeddings
+
+* POST `https://burn.hair/v1/embeddings`
+
+* 请求头 `Authorization: Bearer sk-xxxx`
+
+* 请求体为json
+```json
+{
+    "input": "Your text string goes here",
+    "model": "text-embedding-3-large"
+  }
+```
 
 # 2. 支持 Claude 吗
 暂时不支持...
