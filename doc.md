@@ -1,4 +1,37 @@
 # 1. Open AI 接口
+获取支持的模型列表
+* GET `https://burn.hair/v1/models`
+* 请求头 `Authorization: Bearer sk-xxxx`
+```json
+{
+    "data": [
+        "gpt-3.5-turbo",
+        "gpt-3.5-turbo-0613",
+        "gpt-3.5-turbo-16k",
+        "gpt-3.5-turbo-16k-0613",
+        "gpt-3.5-turbo-1106",
+        "text-embedding-ada-002",
+        "gpt-4-0125-preview",
+        "gpt-4-turbo-preview",
+        "gpt-4-1106-preview",
+        "gpt-4-vision-preview",
+        "gpt-4-0613",
+        "gpt-4",
+        "gpt-4-32k",
+        "gpt-4-32k-0613",
+        "gpt-3.5-turbo-0125",
+        "dall-e-3",
+        "tts-1",
+        "text-embedding-3-large",
+        "text-embedding-3-small",
+        "whisper-1"
+    ],
+    "object": "list"
+}
+
+```
+
+  
 ## 1.1 Chat Competions
 * POST `https://burn.hair/v1/chat/completions`
 
