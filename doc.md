@@ -62,6 +62,11 @@
 
 * 请求体 `form-data`，两个字段 `model: whisper-1`，`file: 你的音频文件路径`
 
+```json
+{
+    "text": "so that they know it's a better world for them."
+}
+```
 
 ## 1.3 TTS
 * POST `https://burn.hair/v1/audio/speech`
