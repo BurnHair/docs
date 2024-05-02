@@ -24,7 +24,9 @@
         "tts-1",
         "text-embedding-3-large",
         "text-embedding-3-small",
-        "whisper-1"
+        "whisper-1",
+        "gpt-4-turbo-2024-04-09",
+        "tts-az-1"
     ],
     "object": "list"
 }
@@ -74,6 +76,7 @@
 * 请求头 `Authorization: Bearer sk-xxxx`
 
 * 请求体为json，会返回一个音频文件供下载
+* model 选择 `tts-az-1`时，[voice 的值请参考文档](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts)
 ```json
 {
     "model": "tts-1",
