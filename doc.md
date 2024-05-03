@@ -5,32 +5,141 @@
 ```json
 {
     "data": [
-        "gpt-3.5-turbo",
-        "gpt-3.5-turbo-0613",
-        "gpt-3.5-turbo-16k",
-        "gpt-3.5-turbo-16k-0613",
-        "gpt-3.5-turbo-1106",
-        "text-embedding-ada-002",
-        "gpt-4-0125-preview",
-        "gpt-4-turbo-preview",
-        "gpt-4-1106-preview",
-        "gpt-4-vision-preview",
-        "gpt-4-0613",
-        "gpt-4",
-        "gpt-4-32k",
-        "gpt-4-32k-0613",
-        "gpt-3.5-turbo-0125",
-        "dall-e-3",
-        "tts-1",
-        "text-embedding-3-large",
-        "text-embedding-3-small",
-        "whisper-1",
-        "gpt-4-turbo-2024-04-09",
-        "tts-az-1"
+        {
+            "id": "gpt-3.5-turbo",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-3.5-turbo-0613",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-3.5-turbo-16k",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-3.5-turbo-16k-0613",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-3.5-turbo-1106",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "text-embedding-ada-002",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-4-0125-preview",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-4-turbo-preview",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-4-1106-preview",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-4-vision-preview",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-4-0613",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-4",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-4-32k",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-4-32k-0613",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-3.5-turbo-0125",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "dall-e-3",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "tts-1",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "text-embedding-3-large",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "text-embedding-3-small",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "whisper-1",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-4-turbo-2024-04-09",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "tts-az-1",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        }
     ],
     "object": "list"
 }
-
 ```
 
   
