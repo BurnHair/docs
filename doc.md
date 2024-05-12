@@ -136,6 +136,12 @@
             "object": "model",
             "created": 0,
             "owned_by": "system"
+        },
+        {
+            "id": "gpt-4-turbo",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
         }
     ],
     "object": "list"
