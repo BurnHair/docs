@@ -195,7 +195,7 @@
 * 请求头 `Authorization: Bearer sk-xxxx`
 
 * 请求体为json，会返回一个音频文件供下载
-* model 选择 `tts-az-1`时，[voice 的值请参考文档](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts)
+* model 选择 `tts-az-1`时，[voice 的值请参考文档](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts)，推荐 `zh-CN-XiaoxiaoMultilingualNeural`
 ```json
 {
     "model": "tts-1",
