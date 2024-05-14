@@ -154,7 +154,7 @@
             "owned_by": "system"
         },
         {
-            "id": "pt-4o-2024-05-13",
+            "id": "gpt-4o-2024-05-13",
             "object": "model",
             "created": 0,
             "owned_by": "system"
