@@ -384,7 +384,7 @@
   }
 ```
 
-# 1.7 gpt-3.5-turbo-instruct
+## 1.7 gpt-3.5-turbo-instruct
 注意 instruct 的请求接口和格式与 Chat Completions不同
 * POST `https://burn.hair/v1/completions`
 * 请求头 `Authorization: Bearer sk-xxxx`
