@@ -158,6 +158,18 @@
             "object": "model",
             "created": 0,
             "owned_by": "system"
+        },
+        {
+            "id": "gpt-4-1106-vision-preview",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
+        },
+        {
+            "id": "gpt-3.5-turbo-instruct",
+            "object": "model",
+            "created": 0,
+            "owned_by": "system"
         }
     ],
     "object": "list"
@@ -371,6 +383,22 @@
     "model": "text-embedding-3-large"
   }
 ```
+
+# 1.7 gpt-3.5-turbo-instruct
+注意 instruct 的请求接口和格式与 Chat Completions不同
+* POST `https://burn.hair/v1/completions`
+* 请求头 `Authorization: Bearer sk-xxxx`
+
+* 请求体为json
+```json
+{
+    "model": "gpt-3.5-turbo-instruct",
+    "prompt": "Say this is a test",
+    "max_tokens": 7,
+    "temperature": 0
+  }
+```
+
 
 # 2. 支持 Claude 吗
 暂时不支持...
