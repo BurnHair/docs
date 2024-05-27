@@ -1,8 +1,15 @@
 # 问题反馈
 
 点击 [issues](https://github.com/BurnHair/issues/issues) 可以进行问题反馈
+# Python openai 调用
+```python
+from openai import OpenAI
 
-# 1. Open AI 接口
+ai = OpenAI(base_url="https://burn.hair/v1", api_key="sk-xx")
+
+....
+```
+# 1. Open AI 接口文档
 获取支持的模型列表
 * GET `https://burn.hair/v1/models`
 * 请求头 `Authorization: Bearer sk-xxxx`
