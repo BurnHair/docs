@@ -402,35 +402,3 @@
 
 # 2. 支持 Claude 吗
 暂时不支持...
-* POST `https://burn.hair/v1/completions`
-* `Authorization: Bearer sk-...`
-
-```json
-{
-    "model": "claude-3-opus-20240229",
-    "max_tokens": 1024,
-    "messages": [
-        {"role": "user", "content": "Hello, world"}
-    ]
-}
-
-{
-    "id": "msg_01QoZJu2xEKgbyqYMXKbEbSD",
-    "type": "message",
-    "role": "assistant",
-    "content": [
-        {
-            "type": "text",
-            "text": "Hello!"
-        }
-    ],
-    "model": "claude-2.1",
-    "stop_reason": "end_turn",
-    "stop_sequence": null,
-    "usage": {
-        "input_tokens": 12,
-        "output_tokens": 6
-    }
-}
-
-```
