@@ -1,6 +1,7 @@
 # 问题反馈
+* 点击 [issues](https://github.com/BurnHair/issues/issues) 可以进行问题反馈
+* 文档持续更新中，请点击md文件查看具体使用方法
 
-点击 [issues](https://github.com/BurnHair/issues/issues) 可以进行问题反馈
 # Python openai 调用
 ```python
 from openai import OpenAI
