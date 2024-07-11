@@ -47,4 +47,4 @@
 目前免费用户的QPS（每秒请求次数）为10，付费用户为50。需要更多并发请发邮件或私聊我。
 
 # 8. 如何判断是否支持 function call
-可以[看这里](https://github.com/orgs/BurnHair/discussions/110)
+可以[看这里](https://github.com/BurnHair/docs/blob/master/function-call.md)
