@@ -2,14 +2,10 @@
 * 在[讨论区](https://github.com/orgs/BurnHair/discussions)中可以进行问题反馈
 * 文档持续更新中，请点击md文件查看具体使用方法
 
-# Python openai 调用
-```python
-from openai import OpenAI
+# 接口地址
+* 全球可用：`https://burn.hair`
+* 中国加速（测试阶段）：`https://cn-test.burn.hair` 
 
-ai = OpenAI(base_url="https://burn.hair/v1", api_key="sk-xx")
-
-....
-```
 # 1. Open AI 接口文档
 获取支持的模型列表
 * GET `https://burn.hair/v1/models`
