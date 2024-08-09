@@ -11,10 +11,10 @@
 # 1. 内部接口文档
 
 ## 1.1 获取用户统计信息
-
+时间是UTC时间。
 * 需要系统访问令牌：设置-生成系统访问令牌
 * GET `https://burn.hair/api/user/stat`
-* 请求头 `Authorization: Bearer sk-xxxx`
+* 请求头 `Authorization: Bearer abcd`
 
 ```json
 {
