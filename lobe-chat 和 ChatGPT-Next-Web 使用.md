@@ -15,7 +15,6 @@ API Key 写从令牌中复制的令牌
 
 # ChatGPT-Next-Web
 
-* 网址1: https://nextchat.burn.hair/#/
 * 网址2: https://chat.burn.hair/
 
 ## 配置
