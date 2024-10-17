@@ -1,6 +1,7 @@
 # lobe-chat
-
-* 网址 https://lobe.burn.hair/
+网址：
+* https://lobe.burn.hair/
+* https://chat-preview.lobehub.com/
 
 ## 配置
 
@@ -14,9 +15,12 @@ API Key 写从令牌中复制的令牌
 
 
 # ChatGPT-Next-Web
-
-* 网址2: https://chat.burn.hair/
-
+网址：
+* https://chat.burn.hair/
+* https://nextchat.burn.hair/
+* https://nextchat.privet.lol/
+* https://app.nextchat.dev/
+  
 ## 配置
 
 左下角设置按钮 - 勾选 自定义接口
