@@ -1,7 +1,7 @@
 # Claude 格式
 
 ## 请求方式
-* 网址 `https://api.burn.hair/v1/messages` ，目前暂时无法使用 `https://burn.hair/v1/messages`
+* 网址 `https://api.burn.hair/v1/messages` ，或 `https://burn.hair/v1/messages`
 * 请求头: `x-api-key: 本站的令牌`
 * 请求体
 ```json
