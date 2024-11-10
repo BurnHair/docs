@@ -1,3 +1,10 @@
+# OpenAI
+https://bunr.hair
+
+# 非 OpenAI 包含 Claude、Mistral
+https://api.burn.hair
+
+
 # 1. 如何使用
 **也可以点击令牌右侧的 “聊天” 按钮使用**
 
@@ -27,10 +34,12 @@
 支持 TRX、银行卡、支付宝、 Google Pay和Apple Pay。购买后得到 key，去[充值页面](https://burn.hair/topup)激活即可
 <img src="https://assets.burn.hair/topup.png" width="100%" />
 
+或直接在令牌页面购买，免去兑换步骤
+
 # 4. 访问不稳定
 * 如有需要，我通常会在北京时间的凌晨1-2点更新服务，这个时间段内可能请求会有少量失败
-* 有些时候请求会失败，再试一次也许就好了
-* 本站使用了 Cloudflare，如果您遇到不稳定、断流等问题，可能需要自行解决网络问题，也可私聊我了解详情
+* 有些时候请求会失败，再试一次就好了
+* 本站使用了 Cloudflare，如果您遇到不稳定、断流等问题，可能需要自行解决网络问题
 
 
 # 5. 为什么日志里显示的模型来回变？我明明只使用4
@@ -49,3 +58,6 @@
 
 # 8. 如何判断是否支持 function call
 可以[看这里](https://github.com/BurnHair/docs/blob/master/function-call.md)
+
+# 9. 汇率
+两个网站，加密货币的汇率均是10分钟更新一次；法币的汇率为1天更新一次
