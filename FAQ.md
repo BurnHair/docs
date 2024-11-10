@@ -61,3 +61,6 @@ https://api.burn.hair
 
 # 9. 汇率
 两个网站，加密货币的汇率均是10分钟更新一次；法币的汇率为1天更新一次
+
+# 10. 内容审查
+我们会选择性的把输入内容发送给 Mistral AI、Google Cloud Compute 或 OpenAI 来进行文本安全审查，此审查不包含个人信息。
