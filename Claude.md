@@ -1,3 +1,26 @@
+# 接口地址
+
+`https://api.burn.hair`  或 `https://burn.hair/`
+
+小分队提供两种类型的 Claude 接口
+
+* default：第三方接口
+* vip： Anthropic Claude 官方接口
+
+令牌 - 编辑 - 令牌分组，可以随意切换
+
+
+
+## ChatGPTNextWeb
+<img width="927" alt="nextweb" src="https://github.com/user-attachments/assets/5400424d-95bf-4642-b23a-1c6443b6c12e">
+
+## LobeChat
+<img width="1060" alt="lobe-claude" src="https://github.com/user-attachments/assets/b678d7a6-d6ff-46c7-857e-eb04686b104e">
+
+_________________
+
+下面是API 接口，Claude的接口有两种格式，请根据自己的需求进行选择
+
 # Claude 格式
 
 ## 请求方式
@@ -96,9 +119,3 @@ with client.messages.stream(
     for text in stream.text_stream:
         print(text, end="", flush=True)
 ```
-
-# ChatGPTNextWeb 配置
-<img width="927" alt="nextweb" src="https://github.com/user-attachments/assets/5400424d-95bf-4642-b23a-1c6443b6c12e">
-
-# LobeChat 配置
-<img width="1060" alt="lobe-claude" src="https://github.com/user-attachments/assets/b678d7a6-d6ff-46c7-857e-eb04686b104e">
