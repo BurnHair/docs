@@ -61,3 +61,7 @@ mistral-embed
     "temperature": 0.7
 }
 ```
+
+# lobechat
+<img width="714" alt="iShot_2024-11-13_19 15 57" src="https://github.com/user-attachments/assets/0341ce81-d28d-431c-837b-b1b75b12a740">
+
