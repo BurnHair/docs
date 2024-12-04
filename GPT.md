@@ -113,7 +113,7 @@ _________________
 
 * 请求头 `Authorization: Bearer sk-xxxx`
 
-* 请求体 `form-data`，两个字段 `model: whisper-1`，`file: 你的音频文件路径`
+* 请求体 `Content-Type: multipart/form-data`，两个字段 `model: whisper-1`，`file: 你的音频文件路径`
 
 ```json
 {
