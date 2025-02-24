@@ -5,7 +5,7 @@
 小分队提供两种类型的 Claude 接口
 
 * default：第三方接口
-* vip： Anthropic Claude 官方接口
+* VIP： Anthropic Claude 官方接口
 
 令牌 - 编辑 - 令牌分组，可以随意切换
 
@@ -40,6 +40,24 @@ _________________
 }
 ```
 
+对于支持深度思考的模型，如 `claude-3-7-sonnet-20250219`，请求体如下，思考token要小于最大token。详情[可见官方文档](https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking)
+```json
+{
+    "model": "claude-3-7-sonnet-20250219",
+    "max_tokens": 10240,
+    "thinking": {
+        "type": "enabled",
+        "budget_tokens": 3000
+    },
+    "messages": [
+        {
+            "role": "user",
+            "content": "hello"
+        }
+    ]
+}
+
+```
 ## 响应
 ```json
 {
