@@ -1,6 +1,6 @@
 # 1. 网址
 ## OpenAI
-https://bunr.hair
+https://burn.hair
 
 ## 非 OpenAI，包含 Anthropic Claude，Mistral AI 和 Grok，更多模型添加中
 https://api.burn.hair
