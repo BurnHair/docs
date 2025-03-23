@@ -5,6 +5,7 @@ https://burn.hair
 ## 非 OpenAI，包含 Anthropic Claude，Mistral AI 和 Grok，更多模型添加中
 https://api.burn.hair
 
+同时也可以使用 `/v1/responses` 接口，包括创建、查看、删除等，详见 [OpenAI官方文档](https://platform.openai.com/docs/api-reference/responses)
 
 # 2. 如何使用
 **也可以点击令牌右侧的 “聊天” 按钮使用**
