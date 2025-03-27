@@ -1,7 +1,7 @@
 # 接口地址
 
 * 全球可用：`https://burn.hair`
-* 中国加速，仅限中国大陆 IP 访问：`https://cn-test.burn.hair`
+* 中国加速，仅限中国大陆 IP 访问：`https://cn-test.burn.hair`，如果遇到报错请检查代理配置，另外在有些工具中，需要注意结尾`/`可能会有不同的结果 
 
 
 ## lobe-chat
