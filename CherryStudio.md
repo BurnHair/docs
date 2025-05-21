@@ -1,4 +1,6 @@
-下载并打开 CherryStudio
+下载并打开 CherryStudio，对于主站，请使用 [CherryStudio v1.2.10](https://github.com/CherryHQ/cherry-studio/releases/tag/v1.2.10)
+
+对于小分队，可以使用最新版本
 
 依次点击 设置-模型服务-OpenAI
 
